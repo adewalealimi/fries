@@ -1,0 +1,171 @@
+
+.navigation-wrapper {
+    height:110px;
+     background-color:$color-grey-dark-2;
+    background-color:$color-grey-dark-2;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 20px;
+
+    &__left-column {
+    display: flex;
+    align-items: center;
+    }
+
+    &__icon {
+        margin-right: 15px;
+    }
+
+    &__icon i {
+        font-size: 2em;
+    }
+
+    // &__banner-wrapper {
+    //     //filter: invert(100%); 
+    //     padding-right: 45px;       
+    // }
+
+    // &__banner-wrapper img  {
+    //     width: 150px; 
+    //     height: 110px; 
+    // }
+
+    &__contact-hours-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px; 
+    }
+
+    &__hours {
+        font-family: "ubuntu  Condensed", sans-serif;
+        color: red;
+        font-size: 0.8em; 
+    }
+
+   &__center-column {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+   }
+
+   &__banner-image {
+       display: flex;
+       justify-content: center;
+   }
+
+   &__banner-image img {
+       width: 216px;
+       height: 100%;
+   }
+
+   
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .links-wrapper > .nav-link {
+    width: 70px;
+    text-align: justify;
+  }
+  
+  .links-wrapper > .nav-link a {
+    font-family: "ubuntu condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+  }
+
+  &__right-column {
+    display: flex;
+    align-items: center;  
+  }
+
+  &__right-column {
+      display: flex;
+      align-items:center;
+  }
+
+  &__address-wrapper {
+    font-family: "ubuntu  Condensed", sans-serif;
+    text-align: right;
+  }
+
+  &__address-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+  }
+
+  &__address-wrapper a:hover {
+    color: #cea135;
+  }
+
+  &__contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+  }
+
+  &__contact-icon a {
+    color: #cdcbcb;
+    transition: 0.5s; 
+  }
+
+
+  &__contact-icon a :hover {
+    color: #cea135;
+  }
+
+  &__address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 7px 5px; 
+    //text-align: right;
+  }
+
+  &__address-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+  }
+
+  &__address-wrapper a:hover {
+    color: #cea135;
+  }
+
+  &__contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+  }
+
+  &__contact-icon a {
+    color: #cdcbcb;
+    transition: 0.5s;
+  }
+
+  &__contact-icon a:hover {
+    color: #cea135;
+  }
+
+
+
+   
+
+}
+
+
+
+
+   
+
+
