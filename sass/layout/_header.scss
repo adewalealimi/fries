@@ -1,9 +1,8 @@
 
 .navigation-wrapper {
     height:110px;
-     background-color:$color-grey-dark-2;
-    background-color:$color-grey-dark-2;
-    color: #cbcbcb;
+    background-color: #11122b;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +39,7 @@
 
     &__hours {
         font-family: "ubuntu  Condensed", sans-serif;
-        color: red;
+        color: #fff;
         font-size: 0.8em; 
     }
 
@@ -133,7 +132,7 @@
   }
 
   &__address-wrapper a {
-    color: #858585;
+    color: #fff;
     text-decoration: none;
     font-size: 0.9em;
     transition: 0.5s;

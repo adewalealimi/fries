@@ -2,26 +2,29 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "base/animations";
-@import "base/base";
-@import "base/typography";
+//@import "base/animations";
+//@import "base/base";
+//@import "base/typography";
 @import "base/utilities";
 
 //@import "components/bg-video";
+
+
 @import "components/button";
-@import "components/composition";
 @import "components/feature-box";
 @import "components/hero";
+@import "components/page";
 @import "components/skewed";
+@import "components/square-grid";
 
 
 //@import "components/form";
 //@import "components/story";
 
 
-
+@import "layout/contact";
 @import "layout/footer";
-//@import "layout/grid";
+@import "layout/form";
 @import "layout/header";
 
 
